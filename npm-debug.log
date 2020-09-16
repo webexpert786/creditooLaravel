@@ -1,0 +1,204 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData @angular/cli
+8 silly fetchNamedPackageData @angular/cli
+9 silly mapToRegistry name @angular/cli
+10 silly mapToRegistry scope (from package name) @angular
+11 verbose mapToRegistry no registry URL found in name for scope @angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@angular/cli',
+14 silly mapToRegistry   scope: '@angular',
+14 silly mapToRegistry   escapedName: '@angular%2fcli',
+14 silly mapToRegistry   name: '@angular/cli',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+16 verbose request uri https://registry.npmjs.org/@angular%2fcli
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 11:56:52 AM
+19 verbose request id 9d0dd4792c04439a
+20 http request GET https://registry.npmjs.org/@angular%2fcli
+21 http 200 https://registry.npmjs.org/@angular%2fcli
+22 verbose headers { date: 'Sat, 06 Jun 2020 11:56:52 GMT',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'transfer-encoding': 'chunked',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=d5b2e7409d5ab30c0b105295fb25a49031591444612; expires=Mon, 06-Jul-20 11:56:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 verbose headers   'cf-ray': '59f1f3dc2cacf417-LHR',
+22 verbose headers   age: '4605',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: 'W/"768704ddb21c17e622b71f0e2a8d97c9"',
+22 verbose headers   'last-modified': 'Mon, 01 Jun 2020 19:55:27 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cf-request-id': '032b16bd9a0000f41746bed200000001',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   server: 'cloudflare',
+22 verbose headers   'content-encoding': 'gzip' }
+23 silly get cb [ 200,
+23 silly get   { date: 'Sat, 06 Jun 2020 11:56:52 GMT',
+23 silly get     'content-type': 'application/json',
+23 silly get     'transfer-encoding': 'chunked',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=d5b2e7409d5ab30c0b105295fb25a49031591444612; expires=Mon, 06-Jul-20 11:56:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+23 silly get     'cf-ray': '59f1f3dc2cacf417-LHR',
+23 silly get     age: '4605',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: 'W/"768704ddb21c17e622b71f0e2a8d97c9"',
+23 silly get     'last-modified': 'Mon, 01 Jun 2020 19:55:27 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cf-request-id': '032b16bd9a0000f41746bed200000001',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     server: 'cloudflare',
+23 silly get     'content-encoding': 'gzip' } ]
+24 verbose get saving @angular/cli to /home/410748.cloudwaysapps.com/aahecuyypy/.npm/registry.npmjs.org/_40angular_252fcli/.cache.json
+25 verbose correctMkdir /home/410748.cloudwaysapps.com/aahecuyypy/.npm correctMkdir not in flight; initializing
+26 verbose makeDirectory /home/410748.cloudwaysapps.com/aahecuyypy/.npm creation not in flight; initializing
+27 silly makeDirectory /home/410748.cloudwaysapps.com/aahecuyypy/.npm uid: 1011 gid: 33
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule @angular/cli@9.1.7 checking installable status
+41 silly cache add args [ '@angular/cli', null ]
+42 verbose cache add spec @angular/cli
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: '@angular/cli',
+43 silly cache add   scope: '@angular',
+43 silly cache add   escapedName: '@angular%2fcli',
+43 silly cache add   name: '@angular/cli',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed @angular/cli@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for @angular/cli
+46 info addNameTag [ '@angular/cli', 'latest' ]
+47 silly mapToRegistry name @angular/cli
+48 silly mapToRegistry scope (from package name) @angular
+49 verbose mapToRegistry no registry URL found in name for scope @angular
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: '@angular/cli',
+52 silly mapToRegistry   scope: '@angular',
+52 silly mapToRegistry   escapedName: '@angular%2fcli',
+52 silly mapToRegistry   name: '@angular/cli',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+54 verbose addNameTag registry:https://registry.npmjs.org/@angular%2fcli not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/@angular%2fcli
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 11:56:52 AM
+58 http request GET https://registry.npmjs.org/@angular%2fcli
+59 http 200 https://registry.npmjs.org/@angular%2fcli
+60 verbose headers { date: 'Sat, 06 Jun 2020 11:56:52 GMT',
+60 verbose headers   'content-type': 'application/json',
+60 verbose headers   'transfer-encoding': 'chunked',
+60 verbose headers   connection: 'keep-alive',
+60 verbose headers   'set-cookie': [ '__cfduid=d5b2e7409d5ab30c0b105295fb25a49031591444612; expires=Mon, 06-Jul-20 11:56:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+60 verbose headers   'cf-ray': '59f1f3dd5ef7f417-LHR',
+60 verbose headers   age: '4605',
+60 verbose headers   'cache-control': 'public, max-age=300',
+60 verbose headers   etag: 'W/"768704ddb21c17e622b71f0e2a8d97c9"',
+60 verbose headers   'last-modified': 'Mon, 01 Jun 2020 19:55:27 GMT',
+60 verbose headers   vary: 'accept-encoding, accept',
+60 verbose headers   'cf-cache-status': 'HIT',
+60 verbose headers   'cf-request-id': '032b16be530000f41746bfa200000001',
+60 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+60 verbose headers   server: 'cloudflare',
+60 verbose headers   'content-encoding': 'gzip' }
+61 silly get cb [ 200,
+61 silly get   { date: 'Sat, 06 Jun 2020 11:56:52 GMT',
+61 silly get     'content-type': 'application/json',
+61 silly get     'transfer-encoding': 'chunked',
+61 silly get     connection: 'keep-alive',
+61 silly get     'set-cookie': [ '__cfduid=d5b2e7409d5ab30c0b105295fb25a49031591444612; expires=Mon, 06-Jul-20 11:56:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+61 silly get     'cf-ray': '59f1f3dd5ef7f417-LHR',
+61 silly get     age: '4605',
+61 silly get     'cache-control': 'public, max-age=300',
+61 silly get     etag: 'W/"768704ddb21c17e622b71f0e2a8d97c9"',
+61 silly get     'last-modified': 'Mon, 01 Jun 2020 19:55:27 GMT',
+61 silly get     vary: 'accept-encoding, accept',
+61 silly get     'cf-cache-status': 'HIT',
+61 silly get     'cf-request-id': '032b16be530000f41746bfa200000001',
+61 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+61 silly get     server: 'cloudflare',
+61 silly get     'content-encoding': 'gzip' } ]
+62 verbose get saving @angular/cli to /home/410748.cloudwaysapps.com/aahecuyypy/.npm/registry.npmjs.org/_40angular_252fcli/.cache.json
+63 verbose correctMkdir /home/410748.cloudwaysapps.com/aahecuyypy/.npm correctMkdir not in flight; initializing
+64 silly addNameTag next cb for @angular/cli with tag latest
+65 silly addNamed @angular/cli@9.1.7
+66 verbose addNamed "9.1.7" is a plain semver version for @angular/cli
+67 silly mapToRegistry name @angular/cli
+68 silly mapToRegistry scope (from package name) @angular
+69 verbose mapToRegistry no registry URL found in name for scope @angular
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: '@angular/cli',
+72 silly mapToRegistry   scope: '@angular',
+72 silly mapToRegistry   escapedName: '@angular%2fcli',
+72 silly mapToRegistry   name: '@angular/cli',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+74 verbose addRemoteTarball https://registry.npmjs.org/@angular/cli/-/cli-9.1.7.tgz not in flight; adding
+75 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/cli/-/cli-9.1.7.tgz',
+75 verbose addRemoteTarball   '0532b9c55d267cd6ee3edb79fec8b19c4e64e607' ]
+76 info retry fetch attempt 1 at 11:56:52 AM
+77 info attempt registry request try #1 at 11:56:52 AM
+78 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-9.1.7.tgz
+79 http fetch 200 https://registry.npmjs.org/@angular/cli/-/cli-9.1.7.tgz
+80 silly fetchAndShaCheck shasum 0532b9c55d267cd6ee3edb79fec8b19c4e64e607
+81 verbose addTmpTarball /tmp/npm-14178-734db8e1/registry.npmjs.org/_40angular/cli/-/cli-9.1.7.tgz not in flight; adding
+82 verbose addTmpTarball already have metadata; skipping unpack for @angular/cli@9.1.7
+83 verbose correctMkdir /home/410748.cloudwaysapps.com/aahecuyypy/.npm correctMkdir not in flight; initializing
+84 silly rollbackFailedOptional Starting
+85 silly rollbackFailedOptional Finishing
+86 silly runTopLevelLifecycles Finishing
+87 silly install printInstalled
+88 verbose stack Error: EACCES: permission denied, mkdir '/home/410748.cloudwaysapps.com/aahecuyypy/.npm'
+88 verbose stack     at Error (native)
+89 verbose cwd /home/410748.cloudwaysapps.com/aahecuyypy/public_html
+90 error Linux 4.9.0-12-amd64
+91 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "@angular/cli"
+92 error node v6.17.1
+93 error npm  v3.10.10
+94 error path /home/410748.cloudwaysapps.com/aahecuyypy/.npm
+95 error code EACCES
+96 error errno -13
+97 error syscall mkdir
+98 error Error: EACCES: permission denied, mkdir '/home/410748.cloudwaysapps.com/aahecuyypy/.npm'
+98 error     at Error (native)
+98 error  { Error: EACCES: permission denied, mkdir '/home/410748.cloudwaysapps.com/aahecuyypy/.npm'
+98 error     at Error (native)
+98 error   errno: -13,
+98 error   code: 'EACCES',
+98 error   syscall: 'mkdir',
+98 error   path: '/home/410748.cloudwaysapps.com/aahecuyypy/.npm' }
+99 error Please try running this command again as root/Administrator.
+100 verbose exit [ -13, true ]
